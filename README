@@ -1,1 +1,27 @@
-proyek capsotne bangkit
+the script that is shown for OCR and verification has a different outcome than originally planned,
+we found out along the way that there's already existing framework for OCR and face verification, 
+
+earlier we found that there is Google Tesseract that is used by many people for OCR problem, although the outcome isn't as great as we expected
+we discuss a little bit of OCR with some of our friend that is experienced in Machine Learning and we conclude that we need a better and built our own model
+though the time doesn't really let us do that, but we keep that in mind to improve our product for future development
+
+and to verify the face of the holder of the ID and the face on the ID itself can be done using an existing library that is DeepFace
+
+so before running the script it's important to get install Google Tesseract and add it to path before we can use it on pytesseract wrapper,
+
+we can install deepface directly on pip, and the wrapped model will automatically downloaded when we change between model,
+after some tuning and test we found out that using FaceNet model is much more better on Id card rather than using the default deepface model that is
+VGG-Face.
+
+
+
+
+
+
+
+
+
+source:
+  https://towardsdatascience.com/googles-tesseract-ocr-how-good-is-it-on-documents-d71d4bf7640
+  https://pypi.org/project/deepface/
+  
