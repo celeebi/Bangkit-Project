@@ -24,4 +24,4 @@ VGG-Face.
 source:
   https://towardsdatascience.com/googles-tesseract-ocr-how-good-is-it-on-documents-d71d4bf7640
   https://pypi.org/project/deepface/
-  
+  https://arxiv.org/pdf/2101.05214.pdf
