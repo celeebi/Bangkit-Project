@@ -13,6 +13,8 @@ we can install deepface directly on pip, and the wrapped model will automaticall
 after some tuning and test we found out that using FaceNet model is much more better on Id card rather than using the default deepface model that is
 VGG-Face.
 
+edit: in the end we don't use the deepface or the tesseract ocr.
+
 
 
 
