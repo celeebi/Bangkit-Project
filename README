@@ -23,7 +23,8 @@ edit: in the end we don't use the deepface or the tesseract ocr.
 
 
 
-source:
+reference:
   https://towardsdatascience.com/googles-tesseract-ocr-how-good-is-it-on-documents-d71d4bf7640
   https://pypi.org/project/deepface/
   https://arxiv.org/pdf/2101.05214.pdf
+  https://medium.com/analytics-vidhya/optical-character-recognition-using-tensorflow-533061285dd3
